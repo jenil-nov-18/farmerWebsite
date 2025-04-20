@@ -19,7 +19,7 @@ const HeroSection = () => {
 
   return (
     <section className="relative bg-gradient-to-b from-agro-green-700 to-agro-green-900 overflow-hidden">
-      <div className="absolute inset-0 bg-[url('/images/HomepagBackgroundimg.jpg')] opacity-20 bg-cover bg-center" />
+      <div className="absolute inset-0 bg-[url('/images/Homepadimg.jpg')] opacity-20 bg-cover bg-center" />
       
       <div className="container-custom relative z-10 py-8 md:py-12 lg:py-16 px-4 md:px-6 lg:px-8">
         <div className="flex flex-col gap-4 items-center md:grid md:grid-cols-2 md:gap-4">
