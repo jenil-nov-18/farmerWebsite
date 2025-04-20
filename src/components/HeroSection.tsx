@@ -28,7 +28,7 @@ const HeroSection = () => {
             <div className="relative">
               <div className="absolute -inset-1 md:-inset-2 rounded-full bg-white/10 blur-md" />
               <img
-                src="images/Homepage.jpeg"
+                src="/agro-learn-commerce/images/HomepagBackgroundimg.jpg"
                 alt="Farmer with fresh produce"
                 className="relative z-10 rounded-lg shadow-xl object-contain h-40 sm:h-48 md:h-[28rem] lg:h-[32rem]"
               />
