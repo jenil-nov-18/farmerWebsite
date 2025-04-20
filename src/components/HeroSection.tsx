@@ -4,7 +4,6 @@ import { useUser } from "@clerk/clerk-react";
 import { Button } from "@/components/ui/button";
 import { ShoppingBag, BookOpen } from "lucide-react";
 import { useAuthCheck } from "@/hooks/useAuthCheck";
-import HomepageImage from '/Homepage.jpeg';
 
 const HeroSection = () => {
   const { isSignedIn } = useUser();
@@ -29,7 +28,7 @@ const HeroSection = () => {
             <div className="relative">
               <div className="absolute -inset-1 md:-inset-2 rounded-full bg-white/10 blur-md" />
               <img
-                src={HomepageImage}
+                src="/images/HomepagBackgroundimg.jpg"
                 alt="Farmer with fresh produce"
                 className="relative z-10 rounded-lg shadow-xl object-contain h-40 sm:h-48 md:h-[28rem] lg:h-[32rem]"
               />
