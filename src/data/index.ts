@@ -6,7 +6,7 @@ export const products: Product[] = [
     name: "Wheat Seeds",
     description: "Vine-ripened organic tomatoes, locally grown without pesticides.",
     price: 349,
-    image: "./images/seadweat.jpeg",
+    image: "/images/seadweat.jpeg",
     category: "🌱 Seeds",
     seller: {
       id: "s1",
