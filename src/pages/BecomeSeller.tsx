@@ -87,14 +87,14 @@ const BecomeSeller = () => {
 
       // Ensure server is available before proceeding
       try {
-        await axios.get("https://backendfarmer-vpe9.onrender.com/health");
+        await axios.get("https://backendfarmer-6xty.onrender.com/health");
       } catch (error) {
         toast.error("Server is not available. Please try again later.");
         return;
       }
 
       // Update seller metadata
-      await axios.post("https://backendfarmer-vpe9.onrender.com/update-seller", {
+      await axios.post("https://backendfarmer-6xty.onrender.com/update-seller", {
         userId: user.id,
         metadata: {
           isSeller: true,

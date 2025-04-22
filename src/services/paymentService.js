@@ -1,7 +1,7 @@
 import { validatePaymentInfo } from '@/lib/validation';
 import { toast } from 'sonner';
 
-const API_BASE_URL = 'https://backendfarmer-vpe9.onrender.com';
+const API_BASE_URL = 'https://backendfarmer-6xty.onrender.com';
 
 class PaymentService {
   static async createOrder(amount) {

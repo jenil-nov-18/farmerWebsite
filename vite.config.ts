@@ -23,7 +23,7 @@ export default defineConfig(({ mode }) => ({
     'process.env.BACKEND_URL': JSON.stringify(
       mode === 'development'
         ? 'http://localhost:5000'
-        : 'https://backendfarmer-vpe9.onrender.com'
+        : 'https://backendfarmer-6xty.onrender.com'
     ),
   },
 }));

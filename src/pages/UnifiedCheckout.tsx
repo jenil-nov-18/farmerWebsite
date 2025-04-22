@@ -71,7 +71,7 @@ const UnifiedCheckout: React.FC = () => {
   const total = subtotal + tax + shipping;
 
   const createOrder = async (total: number) => {
-    const response = await fetch("https://backendfarmer-vpe9.onrender.com./create-order", {
+    const response = await fetch("https://backendfarmer-6xty.onrender.com./create-order", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
