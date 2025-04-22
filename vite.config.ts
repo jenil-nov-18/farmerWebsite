@@ -12,15 +12,18 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
-    mode === 'development' &&
-    componentTagger(),
+    mode === "development" && componentTagger(),
   ].filter(Boolean),
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  build: {
-    outDir: 'dist',
+  define: {
+    'process.env.BACKEND_URL': JSON.stringify(
+      mode === 'development'
+        ? 'http://localhost:5000'
+        : 'https://backendfarmer-vpe9.onrender.com'
+    ),
   },
 }));

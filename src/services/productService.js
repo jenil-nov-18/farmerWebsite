@@ -1,7 +1,7 @@
 import { validateProduct, validateQuantity } from '@/lib/validation';
 import { toast } from 'sonner';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://backendfarmer-vpe9.onrender.com';
 
 class ProductService {
   static async getProducts(category = '', searchQuery = '') {
